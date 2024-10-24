@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+  @apply antialiased;
+}
+
+@layer components {
+  .form-input {
+    @apply w-full px-3 border-neutral-500 transition-all duration-300 border ease-in-out rounded-lg py-2 text-sm outline-blue-500;
+  }
+  .primary-btn {
+    @apply bg-blue-600 hover:opacity-90 transition-all duration-300 text-sm enabled:active:scale-90 disabled:opacity-90 py-2 px-3 rounded-lg text-white;
+  }
+  .danger-btn {
+    @apply bg-red-600 hover:opacity-90 transition-all duration-300 text-sm enabled:active:scale-90 disabled:opacity-90 py-2 px-3 rounded-lg text-white;
+  }
+}
