@@ -23,7 +23,7 @@ app.use("/api/user", userRouter);
 app.use("/api/todos", todoRouter);
 
 app.use("/api/health", (req, res) => {
-  res.status(200);
+  res.status(200).send("ok");
 });
 
 app.use((req, res, next) => {
