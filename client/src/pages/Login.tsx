@@ -20,7 +20,7 @@ export default function Login() {
     };
 
   return (
-    <div className=" max-w-[400px] mx-auto flex  flex-col justify-center min-h-screen -mt-[2%]">
+    <div className=" max-w-[400px] px-3 mx-auto flex  flex-col justify-center min-h-screen -mt-[2%]">
       <h1 className="flex items-center justify-center gap-2">
         <img className="size-10" src="./logo2.svg" alt="logo" />
         <span className=" text-3xl font-bold text-neutral-800">Todos</span>

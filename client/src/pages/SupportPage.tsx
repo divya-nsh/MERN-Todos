@@ -25,7 +25,7 @@ export default function HelpAndFeedback() {
 
           {/* GitHub Source Code */}
           <a
-            href="https://github.com/your-github-repo"
+            href="https://github.com/divya-nsh/MERN-Todos"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-3 text-blue-600 hover:underline"
