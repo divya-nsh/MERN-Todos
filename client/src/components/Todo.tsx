@@ -16,6 +16,7 @@ export default function TodoLi({
   _id,
   updatedAt,
   createdAt,
+  note,
 }: Props) {
   const [isDeleting, setDeleting] = useState(false);
   const [isEditing, setEditing] = useState(false);
@@ -119,7 +120,7 @@ export default function TodoLi({
       <EditTodoModal
         onClose={() => setEditing((v) => !v)}
         open={isEditing}
-        todo={{ _id, completed, updatedAt, createdAt, title }}
+        todo={{ _id, completed, updatedAt, createdAt, title, note }}
       />
     </div>
   );
